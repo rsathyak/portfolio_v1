@@ -422,6 +422,14 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
 
+  .justified{
+    text-align: justify;
+  }
+
+  .hero{
+    max-width: 650px !important
+  }
+
   ${TransitionStyles};
 
   ${PrismStyles};

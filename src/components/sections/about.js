@@ -116,7 +116,7 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "download.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -132,31 +132,29 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React', 'Eleventy', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'Python', 'Tensorflow', 'Keras', 'Pandas', 'React'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
 
       <div className="inner">
-        <StyledText>
+        <StyledText className="justified">
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Rajesh and I enjoy solving math, code and performance tuning stuff
+              on the web.
             </p>
 
             <p>
-              Fast-forward to today, and I've had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              With a professional experience of 5+ years, I was fortunate enough to work at{' '}
+              <a href="https://www.zoho.com">Zoho Corporation</a>,{' '}
+              <a href="http://www.advisory.com/">The Advisory Board</a> and{' '}
+              <a href="https://cogentec.in">Cogentec IT Solutions</a>, which laid strong foundations
+              for my software career. Along the way, I specialized in Data visualizations in Web,
+              Machine Learning, Web Performance, Client Side Web Development. My passion to
+              mathematics set my focus to Machine Learning Optimizations and kick start my Graduate
+              Studies here at <a href="https://www.asu.edu/">Arizona State University</a>.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
@@ -168,7 +166,7 @@ const About = () => {
         </StyledText>
 
         <StyledPic>
-          <div className="wrapper">
+          <div>
             <Img fluid={data.avatar.childImageSharp.fluid} alt="Avatar" className="img" />
           </div>
         </StyledPic>

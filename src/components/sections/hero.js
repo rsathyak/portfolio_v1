@@ -53,14 +53,13 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
+  const two = <h2 className="big-heading">Rajesh Sathya Kumar.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
-    <p>
-      I'm a Boston-based software engineer who specializes in building (and occasionally designing)
-      exceptional digital experiences. Currently, I'm an engineer at{' '}
-      <a href="https://upstatement.com/">Upstatement</a> focused on building accessible,
-      human-centered products.
+    <p className="justified hero">
+      I'm a software developer who specializes in machine learning algorithms, web performance
+      optimization and front-end web development. Currently, I'm pursuing my Masters in Computer
+      Science at <a href="https://www.asu.edu/">Arizona State University</a>.
     </p>
   );
   const five = (

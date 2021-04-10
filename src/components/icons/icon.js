@@ -16,6 +16,7 @@ import {
   IconTwitter,
   IconZap,
 } from '@components/icons';
+import IconMedium from './medium';
 
 const Icon = ({ name }) => {
   switch (name) {
@@ -39,6 +40,8 @@ const Icon = ({ name }) => {
       return <IconLoader />;
     case 'Logo':
       return <IconLogo />;
+    case 'Medium':
+      return <IconMedium />;
     case 'PlayStore':
       return <IconPlayStore />;
     case 'Star':

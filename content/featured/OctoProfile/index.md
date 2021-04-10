@@ -1,14 +1,14 @@
 ---
-date: '3'
-title: 'OctoProfile'
-cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+date: '2'
+title: 'Portfolio'
+cover: './sidharth.png'
+# github: 'https://github.com/bchiang7/octoprofile'
+external: 'https://sidharth-nair.web.app/'
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - Firebase
+  - jQuery
+  - Reflux Design Theme
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+Mechanical Engineer Portfolio design built on top of [jQuery](https://jquery.com/) and hosted in [Firebase](https://firebase.google.com/)

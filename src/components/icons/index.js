@@ -1,3 +1,4 @@
+export { default as IconMedium } from './medium';
 export { default as IconAppStore } from './appstore';
 export { default as IconCodepen } from './codepen';
 export { default as IconExternal } from './external';
