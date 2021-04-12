@@ -51,7 +51,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        My inbox is always open for conversations. You can Reach me out to the below email with any
+        My inbox is always open for conversations. You can reach me out to the below email with any
         question or even if you just wanted to say hi, I'll try my best to get back to you!
       </p>
 
