@@ -43,7 +43,7 @@ const StyledProjectsSection = styled.section`
 
   .more-button {
     ${({ theme }) => theme.mixins.button};
-    margin: 80px auto 0;
+    margin: 80px 40px 0;
   }
 `;
 
@@ -204,11 +204,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
-
-      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
-        view the archive
-      </Link>
+      <h2 ref={revealTitle}>Other Noteworthy Projects & Certifications</h2>
 
       <ul className="projects-grid">
         <TransitionGroup component={null}>
@@ -276,9 +272,15 @@ const Projects = () => {
         </TransitionGroup>
       </ul>
 
-      <button className="more-button" onClick={() => setShowMore(!showMore)}>
-        Show {showMore ? 'Less' : 'More'}
-      </button>
+      <div>
+        <button className="more-button" onClick={() => setShowMore(!showMore)}>
+          Show {showMore ? 'Less' : 'More'} Projects
+        </button>
+
+        <Link className="more-button" to="/archive" ref={revealArchiveLink}>
+          Show Certifications
+        </Link>
+      </div>
     </StyledProjectsSection>
   );
 };

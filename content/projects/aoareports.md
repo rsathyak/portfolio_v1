@@ -10,4 +10,4 @@ showInProjects: true
 company: 'ABCO'
 ---
 
-ASP.NET web based Powerpoint Data analysis automation tool for presenting the clients usage of one of the web product of the company
+ASP.NET web based Powerpoint Data analysis automation tool for presenting the clients usage of web analytics

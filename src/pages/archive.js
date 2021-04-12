@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { Layout } from '@components';
-import { Icon } from '@components/icons';
+// import { Icon } from '@components/icons';
 
 const StyledTableContainer = styled.div`
   margin: 100px -20px;
@@ -146,8 +146,8 @@ const ArchivePage = ({ location, data }) => {
 
       <main>
         <header ref={revealTitle}>
-          <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <h1 className="big-heading">Certifications</h1>
+          {/* <p className="subtitle">Use External Link (if exists) to view</p> */}
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -155,10 +155,10 @@ const ArchivePage = ({ location, data }) => {
             <thead>
               <tr>
                 <th>Year</th>
-                <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
-                <th className="hide-on-mobile">Built with</th>
-                <th>Link</th>
+                <th>Certification</th>
+                <th className="hide-on-mobile">Authority</th>
+                <th className="hide-on-mobile">Tech</th>
+                {/* <th>Link</th> */}
               </tr>
             </thead>
             <tbody>
@@ -166,8 +166,8 @@ const ArchivePage = ({ location, data }) => {
                 projects.map(({ node }, i) => {
                   const {
                     date,
-                    github,
-                    external,
+                    // github,
+                    // external,
                     // ios,
                     // android,
                     title,
@@ -197,16 +197,16 @@ const ArchivePage = ({ location, data }) => {
 
                       <td className="links">
                         <div>
-                          {external && (
+                          {/* {external && (
                             <a href={external} aria-label="External Link">
                               <Icon name="External" />
                             </a>
-                          )}
-                          {github && (
+                          )} */}
+                          {/* {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
                             </a>
-                          )}
+                          )} */}
                           {/* {ios && (
                             <a href={ios} aria-label="Apple App Store Link">
                               <Icon name="AppStore" />
@@ -239,7 +239,7 @@ export default ArchivePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/projects/" } }
+      filter: { fileAbsolutePath: { regex: "/certifications/" } }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -248,7 +248,6 @@ export const pageQuery = graphql`
             date
             title
             tech
-            github
             external
             company
           }

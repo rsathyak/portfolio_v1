@@ -14,4 +14,3 @@ url: 'https://www.zoho.com/'
 - Web Performance | Worked with team on several web performance optimization such as Code Splitting, Tree Shaking, Chunk Analysis, Optimum React Design Patterns, etc.
 - Internationalization | Worked with the translation team and integration team to automate the internationalization process and developed a build system for all the words/sentences used within the product. Also, helped in developing the build system for code splitting of all i18n files.
 - Tech Sessions | Conducted weekly sessions mainly focussed on Web Performance and sessions on GraphQL, Design Patterns, etc.
-- Freshers KT | Provided training for freshers with JS, React.js, Redux, and other libraries used with the Zoho Desk Product.

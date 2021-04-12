@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-NCCT is a Club Cricket Team Web photo gallery project. It is hosted in [Firebase](https://firebase.google.com/) and scripted using raw vanillaJS.
+NCCT is a Club Cricket Team based in chennai. This project is a static website for the teams photo gallery. It is hosted in [Firebase](https://firebase.google.com/) and scripted using raw vanillaJS.

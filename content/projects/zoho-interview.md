@@ -11,4 +11,4 @@ showInProjects: true
 company: 'Zoho'
 ---
 
-This project is a Zoho Interview Web Project. Design Copyrights to Zoho.
+This is a static webpage developed during Zoho Interview. Design Copyrights to Zoho.

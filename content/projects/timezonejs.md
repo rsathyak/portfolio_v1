@@ -11,4 +11,4 @@ showInProjects: true
 company: 'Zoho'
 ---
 
-TimezoneJs is a Javascript library for converting timezone based date and time. It uses timezone data of all countries from the [IANA database](https://www.iana.org/time-zones) and uses dynamic code-splitting for fetching necessary timezone data for the application. This is unlike [Moment-Timezone](https://momentjs.com/timezone/), another famous timezone conversion JS library
+TimezoneJs is a Javascript library for converting timezone based date and time. It uses timezone data of all countries from the [IANA database](https://www.iana.org/time-zones) and uses dynamic code-splitting for fetching necessary timezone data for the application.

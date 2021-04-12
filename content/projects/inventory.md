@@ -11,4 +11,4 @@ tech:
 showInProjects: true
 ---
 
-Furniture point is a Furniture shop based in Chennai, India. This project is a static website used for billing. It is build with Google's [Material UI](https://material-ui.com/) framework for React and hosted in [Firebase](https://firebase.google.com/). The data is stored in [IndexedDB Web API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API).
+Furniture point is a furniture shop based in Chennai, India. This project is a static website developed for billing. It is build with Google's [Material UI](https://material-ui.com/) framework for React and hosted in [Firebase](https://firebase.google.com/). The data is stored in [IndexedDB Web API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API).

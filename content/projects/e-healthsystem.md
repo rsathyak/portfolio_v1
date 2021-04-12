@@ -13,4 +13,4 @@ showInProjects: true
 company: 'Hackathon 2k18'
 ---
 
-E-Healthcare System is a Web based Data Visualization Project for the data collected from various state level schemes in india. The Project is a PHP MVC pattern.
+E-Healthcare System is a Web based Data Visualization Project for the data collected from various state level schemes in india. The Project is developed using the PHP MVC pattern.

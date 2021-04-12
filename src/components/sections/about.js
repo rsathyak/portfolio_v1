@@ -153,7 +153,7 @@ const About = () => {
               <a href="https://cogentec.in">Cogentec IT Solutions</a>, which laid strong foundations
               for my software career. Along the way, I specialized in Data visualizations in Web,
               Machine Learning, Web Performance, Client Side Web Development. My passion to
-              mathematics set my focus to Machine Learning Optimizations and kick start my Graduate
+              mathematics set my focus to Machine Learning Algorithms and kick start my Graduate
               Studies here at <a href="https://www.asu.edu/">Arizona State University</a>.
             </p>
 
