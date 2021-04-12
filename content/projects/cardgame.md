@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-Card Game Command line C# interface application
+This is a fun project. Simulated a Card Game as a Command line C# application

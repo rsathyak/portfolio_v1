@@ -1,6 +1,6 @@
 ---
 date: '2017-03-01'
-title: 'Card Game'
+title: 'Project Ayush: All India Hackthon 2k17'
 github: 'https://github.com/rajeshskr/projectayush'
 # external: 'https://bchiang7.github.io/v1/'
 tech:

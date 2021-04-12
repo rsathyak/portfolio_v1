@@ -7,20 +7,20 @@ module.exports = {
       url: 'https://github.com/rajeshskr',
     },
     {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/rajeshsathyakumar/',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/rajesh__skr',
-    },
-    {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/rajesh-sathyakumar/',
     },
     {
       name: 'Medium',
       url: 'https://medium.com/@rajeshsathyakumar',
+    },
+    {
+      name: 'Instagram',
+      url: 'https://www.instagram.com/rajeshsathyakumar/',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/rajesh__skr',
     },
   ],
 

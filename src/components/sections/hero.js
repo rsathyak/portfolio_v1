@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { email } from '@config';
 import { navDelay, loaderDelay } from '@utils';
+import Typed from 'typed.js';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -44,17 +45,44 @@ const StyledHeroSection = styled.section`
   }
 `;
 
+// Typed.js Options
+const options = {
+  strings: [
+    'I build ML models on data',
+    'I code things for the web',
+    'I also love solving math stuff',
+  ],
+  typeSpeed: 40,
+  smartBackspace: true,
+  autoInsertCss: true,
+  showCursor: true,
+  cursorChar: ' |',
+  loop: true,
+  loopCount: Infinity,
+  backDelay: 2200,
+};
+
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    const timeout = setTimeout(() => setIsMounted(true), navDelay);
+    const timeout = setTimeout(() => {
+      setIsMounted(true), navDelay;
+
+      // Typed initialization
+      new Typed('#typed', options);
+    });
+
     return () => clearTimeout(timeout);
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Rajesh Sathya Kumar.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = (
+    <h3 className="big-heading">
+      <span id="typed"></span>
+    </h3>
+  );
   const four = (
     <p className="justified hero">
       I'm a software developer who specializes in machine learning algorithms, web performance

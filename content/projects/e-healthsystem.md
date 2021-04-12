@@ -1,6 +1,6 @@
 ---
 date: '2018-04-01'
-title: 'E-Health System: All India Hackerrank 2k18'
+title: 'E-Health System: All India Hackathon 2k18'
 github: 'https://github.com/rajeshskr/e-healthsystem'
 # external: 'https://bchiang7.github.io/v1/'
 tech:
